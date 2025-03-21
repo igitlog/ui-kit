@@ -3,8 +3,8 @@
     <h2 class="text-xl font-semibold mb-2">Modal Demo</h2>
     <BaseButton @click="openModal">Open Modal</BaseButton>
     <Modal :isOpen="isModalOpen" @close="isModalOpen = false">
-      <h3 class="text-lg">This is a modal!</h3>
-      <p>Content goes here.</p>
+      <h3 class="text-lg text-black">This is a modal</h3>
+      <p class="text-black">Content goes here.</p>
     </Modal>
   </div>
 </template>
